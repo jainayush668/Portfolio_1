@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 400vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(4,9,30,0.7)),url(image/back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(234, 69, 96);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #fff;
+    background: transparent;
+    position: relative;
+    padding: 12px 34px;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    border: 1px solid rgb(234,69,96);
+    background-color: rgb(234,69,96);
+    transition: 1s;
+}
+
+.main hr{
+    margin-top: 20px;
+}
+
+.home img{
+    height: 500px;
+    width: 400px;
+    border: 5px solid white;
+    margin-top: 70px;
+    margin-left: 900px;
+}
+
+.content{
+    color: white;
+    margin-left: 100px;
+    margin-top: -370px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content h2{
+    font-size: 40px;
+}
+
+.content ul li{
+    list-style: none;
+    display: inline;
+    justify-content: space-between;
+    padding: 8px 24px;
+}
+
+
+
+.about_h2{
+    color: rgb(234,69,96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    font-size: 70px;
+}
+
+.about_h5{
+    color: white;
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+.about_h4{
+    color: white;
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+
+.about_p{
+    color: white;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-right: 150px;
+}
+
+.education h1{
+    color: rgb(234,69,96);
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.education .box{
+    color: white;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 12px 60px;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 180px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.education .box:hover{
+    border: 1px solid rgb(234,69,96);
+    background-color: rgb(234,69,96);
+    transition: 1s;
+}
+
+.education a{
+    color: white;
+    text-decoration: none;
+}
+
+.skill h1{
+    color: rgb(234,69,96);
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+
+.skill ul li a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+
+.skill ul li{
+
+    padding: 12px 34px;
+    list-style: none;
+    margin-top: 80px;
+    font-size: 40px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-left: 110px;
+}
+
+.footer{
+    margin-top: 340px;
+    background-color: rgb(234, 69, 96);
+    height: 25vh;
+}
+
+.footer h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 50px;
+    margin-left: 170px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.footer ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    cursor: pointer;
+}
